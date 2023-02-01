@@ -26,3 +26,5 @@ hs_err_pid*
 /productservices/target/
 /productweb/target/
 *.iml
+*.ipr
+*.iws

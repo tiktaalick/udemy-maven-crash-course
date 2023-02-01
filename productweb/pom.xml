@@ -33,7 +33,6 @@
         <dependency>
             <artifactId>productservices</artifactId>
             <groupId>org.mark</groupId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
