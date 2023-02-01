@@ -6,13 +6,9 @@
 
     <groupId>org.mark</groupId>
     <artifactId>udemy-maven-crash-course</artifactId>
+    <name>parent</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-
-    <modules>
-        <module>productservices</module>
-        <module>productweb</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -21,25 +17,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.9.2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>6.0.4</version>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>productservices</module>
+        <module>productweb</module>
+    </modules>
 
     <build>
         <finalName>my-udemy-maven-crash-course</finalName>
